@@ -71,7 +71,7 @@ $(document).ready(function(){
 });
 
 $(window).load(function(){
-  //about 自動高度
+  //about
   var imgh = $('.slideshow>img').height();
   $('.slideshow').css('height',imgh);
   $(window).resize(function(){
@@ -80,7 +80,7 @@ $(window).load(function(){
   })
 });
 
-//常見問題
+//
 /*
 $(document).ready(function(){
   $('.q').click(function(){
